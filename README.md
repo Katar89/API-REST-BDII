@@ -6,7 +6,7 @@ El repositorio carece del entorno mvn, crear a nivel de carpeta principal:
 .mvn>wrapper>maven-wrapper.txt
 
 
-<!---
+-----------------------------------------------------------------------------------------------------------------
 # CONTENIDO DE maven-wrapper.txt:
 
 # Licensed to the Apache Software Foundation (ASF) under one
@@ -29,6 +29,6 @@ wrapperVersion=3.3.2
 distributionType=only-script
 distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.zip
 */
---->
+----------------------------------------------------------------------------------------------------------------
 
 
