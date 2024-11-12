@@ -9,7 +9,7 @@ El repositorio carece del entorno mvn, crear a nivel de carpeta principal:
 -----------------------------------------------------------------------------------------------------------------
 # CONTENIDO DE maven-wrapper.txt:
 
-# Licensed to the Apache Software Foundation (ASF) under one
+/*# Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
 # distributed with this work for additional information
 # regarding copyright ownership.  The ASF licenses this file
@@ -28,7 +28,7 @@ El repositorio carece del entorno mvn, crear a nivel de carpeta principal:
 wrapperVersion=3.3.2
 distributionType=only-script
 distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.zip
-*/
+
 ----------------------------------------------------------------------------------------------------------------
 
 
