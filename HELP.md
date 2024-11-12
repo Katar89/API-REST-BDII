@@ -59,5 +59,67 @@ Ejemplo:
 }
 
 ```
+------
+### Endpoint: /api/jardineria/proyectos
+------
+Creacion de un proyecto en los registros 
+------
+Ejemplo:
+```
+{
+  "usuarioId": "6732971bc049b05008e0ef2",
+  "tipoCultivo": "Horticultura",
+  "estado": "EN_PROGRESO",
+  "descripcion": "Este proyecto esta enfocado en el cultivo de vegetales organicos",
+  "multimedia":[
+    {
+      "tipo":"imagen",
+      "url":"https://imagen.com"
+    },
+  ],
+  "colaboradores":[
+    "6732971bc049b05008e0ef2"
+  ]
+}
 
+```
+------
+### Endpoint: /api/jardineria/comentarios
+------
+Creacion de uno o varios comentarios dentro de un proyecto
+------
+Ejemplo:
+```
+{
+  "_id": "649f8b0b7b6c1d52d5e0f3d1",
+  "proyectoId": "649f8b0b7b6c1d52d5e0f2a1",
+  "usuarioId": "649f8b0b7b6c1d52d5e0f2e9",
+  "texto": "Este es un comentario sobre el proyecto.",
+  "fecha": 2024-11-12T15:00:00Z,
+  "replicas": [
+    {
+      "usuarioId": "649f8b0b7b6c1d52d5e0f3c0",
+      "texto": "Muy buen trabajo en este proyecto, me gusta mucho.",
+      "fecha": "2024-11-12T15:30:00Z"
+    },
+    {
+      "usuarioId": "649f8b0b7b6c1d52d5e0f3c1",
+      "texto": "Estoy de acuerdo, se ve impresionante.",
+      "fecha": "2024-11-12T16:00:00Z"
+    }
+  ],
+  "adjuntos": [
+    {
+      "tipo": "imagen",
+      "url": "https://example.com/imagen1.jpg"
+    },
+    {
+      "tipo": "documento",
+      "url": "https://example.com/plan_de_trabajo.pdf"
+    }
+  ]
+}
+
+
+```
 
