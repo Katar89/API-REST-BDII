@@ -9,7 +9,7 @@ El repositorio carece del entorno mvn, crear a nivel de carpeta principal:
 -----------------------------------------------------------------------------------------------------------------
 # CONTENIDO DE maven-wrapper.txt:
 
-/*# Licensed to the Apache Software Foundation (ASF) under one
+/*# Licensed to the Apache Software Foundation (ASF) under one */
 # or more contributor license agreements.  See the NOTICE file
 # distributed with this work for additional information
 # regarding copyright ownership.  The ASF licenses this file
