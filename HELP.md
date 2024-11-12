@@ -13,14 +13,14 @@ Por favor considerar las siguientes documentaciones:
 ## Guia
 A continuacion se especificara la funcionalidad de los siguientes endpoints:
 
-* POST    -  {% Añadir nuevo registro. %}
-* PUT     -  {% Actualizar registro existente. %}
-* DELETE  -  {% Borrar registro existente. %}
-* GET     -  {% Obtener registros.  %}
+* POST    -   Añadir nuevo registro. 
+* PUT     -   Actualizar registro existente. 
+* DELETE  -   Borrar registro existente. 
+* GET     -   Obtener registros.  
 
 ## POST 
 ### Descripcion:  
-{% Objeto Usuario que debe ser añadido a los registros %}
+Objeto Usuario que debe ser añadido a los registros 
 
 Endpoint: /api/jardineria/comentarios
 
