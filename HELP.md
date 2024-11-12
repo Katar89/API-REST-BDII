@@ -20,6 +20,7 @@ A continuacion se especificara la funcionalidad de los siguientes endpoints:
 
 ## POST 
 ### Descripcion:  
+------
 Objeto Usuario que debe ser añadido a los registros 
 
 Endpoint: /api/jardineria/comentarios
